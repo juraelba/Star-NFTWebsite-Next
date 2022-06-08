@@ -1,0 +1,363 @@
+@keyframes fadeIn {
+  0% {
+    backdrop-filter: blur(0);
+    opacity: 0;
+  }
+  100% {
+    backdrop-filter: blur(7px);
+    opacity: 1;
+  }
+}
+
+.arrow {
+  margin: 0 5px;
+  transition: 0.25s transform;
+}
+.popNav {
+  background-color: white;
+  padding: 20px;
+  color: #c1ab70 !important;
+  width: 100% !important;
+  font-weight: 300;
+}
+.popNav:hover {
+  background-color: #c1ab70;
+  padding: 20px;
+  color: white !important;
+  width: 100% !important;
+}
+.aColor {
+  color: black !important;
+  text-decoration: none;
+}
+.aColor:hover {
+  color: black !important;
+  text-decoration: none;
+}
+.arrow.expanded {
+  transform: rotate(90deg);
+}
+.arrow1 {
+  transform: rotate(90deg);
+  margin: 0 5px;
+  transition: 0.25s transform;
+}
+.popupBox {
+  width: 260px;
+  padding-top: 20px;
+  height: 300px;
+}
+.closeButton {
+  position: fixed;
+  right: 10%;
+  top: 10%;
+}
+.nonselected {
+  margin-right: 15px;
+  font-size: 16px;
+  line-height: 115%;
+  font-weight: 500;
+}
+.connect {
+  background: none;
+  background-image: url(/images/user-icon.svg);
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: 36px auto;
+  border: none;
+  color: transparent;
+  height: 36px;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  width: 36px;
+}
+
+.connect.metamask {
+  background-image: url(/images/metamask-logo.svg);
+}
+
+.connect.polis {
+  background-image: url(/images/polis-logo.png);
+}
+
+.header {
+  animation: fadeIn 1s;
+  background-color: #090a0f;
+  /* border-bottom: 1px #111 solid; */
+  color: white;
+  height: 88px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 99999;
+  box-shadow: none !important;
+  max-width: 2000px;
+  margin: auto;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+.header1 {
+  background-color: transparent;
+  /* border-bottom: 1px #111 solid; */
+  color: white;
+  height: 88px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 99999;
+  box-shadow: none !important;
+  max-width: 2000px;
+  margin: auto;
+}
+
+.header:after {
+  background: rgba(0, 0, 0, 0.25);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.25) 0%,
+    rgba(0, 0, 0, 0.25) 25%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  content: " ";
+  height: 0px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 88px;
+  z-index: 99999;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: normal;
+  height: 36px;
+  left: 20px;
+  margin: 0;
+  position: absolute;
+  top: 20px;
+  z-index: 999;
+}
+
+.logo a:hover {
+  text-decoration: none;
+}
+
+.logoButton {
+  align-items: center;
+  background: none;
+  display: flex;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.logo span {
+  color: #c1ab70;
+  font-size: 24px;
+  margin: 10px 0 10px 10px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+}
+
+.menuIcon {
+  display: none;
+}
+
+.menuItem {
+  margin: 0 20px 0 0;
+}
+
+.mobileMenu {
+  align-items: center;
+  animation: fadeIn 0.35s;
+  animation-fill-mode: forwards;
+  background-color: rgba(0, 0, 0, 0.75);
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  top: 0;
+  z-index: 99999999;
+}
+
+.mobileMenu a {
+  display: block;
+  font-size: 32px;
+  padding: 40px;
+}
+
+.mobileMenu a:hover {
+  text-decoration: none;
+}
+
+.mobileMenu .selected a {
+  color: white;
+}
+
+.nav {
+  position: absolute;
+  top: 25px;
+  width: 100%;
+}
+
+.nav ul {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.nav ul li a {
+  color: #ccc;
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav ul li a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav ul li.selected a {
+  color: #c1ab70;
+  margin-right: 15px;
+  font-size: 17px;
+  line-height: 115%;
+  font-weight: 500;
+}
+
+.network {
+  color: #666;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-top: 4px;
+}
+
+.user {
+  align-items: center;
+  display: flex;
+  position: absolute;
+  right: 20px;
+  top: 30px;
+  z-index: 999;
+}
+
+.user button {
+  margin-left: 20px;
+}
+
+.wrapper {
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+}
+.mobileButton {
+  display: none;
+}
+
+.socialImage {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px
+}
+.socialImage:hover {
+  filter: brightness(100);
+}
+
+@media screen and (max-width: 800px) {
+  .connect {
+    background-size: auto 48px;
+    height: 48px;
+    width: 48px;
+  }
+  .mobileButton {
+    display: block;
+  }
+  .header {
+    height: 78px;
+  }
+  .webButton {
+    display: none;
+  }
+  .socialImage{
+    display: none;
+  }
+
+  .header:after {
+    background: rgba(0, 0, 0, 0.25);
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.25) 0%,
+      rgba(0, 0, 0, 0.25) 25%,
+      rgba(0, 0, 0, 0) 100%
+    );
+    content: " ";
+    height: 10px;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 78px;
+    z-index: 99999;
+  }
+
+  .logo {
+    background-image: url(/images/starledger-icon.svg);
+    background-repeat: no-repeat;
+    background-size: auto 48px;
+    height: 48px;
+    left: 10px;
+    overflow: hidden;
+    padding: 0 0 0 42px;
+    top: 14px;
+  }
+
+  .logo a {
+    color: transparent;
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+
+  .logoImage,
+  .logoSeparator {
+    display: none;
+  }
+
+  .menuIcon {
+    display: inline-block;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .network {
+    display: none;
+  }
+
+  .user {
+    right: 10px;
+    top: 10px;
+  }
+
+  .userButton {
+    color: white !important;
+    overflow: hidden;
+    width: 32px;
+  }
+}

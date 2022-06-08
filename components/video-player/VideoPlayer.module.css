@@ -1,0 +1,10 @@
+.main_box {
+    padding-top: 17%;
+    z-index: 100;
+}
+
+@media (max-width: 600px) {
+    .main_box {
+        padding-top: 30%;
+    }
+}

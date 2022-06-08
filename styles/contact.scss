@@ -1,0 +1,425 @@
+.community {
+  margin: 0 0 28px;
+  color: #c1ab70;
+  font-size: 60px;
+  line-height: 122%;
+  font-weight: 700;
+  letter-spacing: -1px;
+  padding-top: 10%;
+}
+.growing {
+  margin-bottom: 34px;
+  color: white;
+  font-size: 18px;
+}
+.icon-box-contact {
+  background-color: white;
+  display: flex !important;
+  justify-content: center !important;
+  padding: 25;
+  border-radius: 24px;
+  align-items: center !important;
+  width: 84px;
+  height: 84px;
+  z-index: 9999 !important;
+  position: relative;
+  // margin: auto;
+  margin-bottom: 28px;
+}
+.flex-contact {
+  display: flex;
+}
+.mail-title {
+  color: #c1ab70;
+  font-size: 15px;
+  line-height: 135%;
+  margin-top: 15px;
+}
+.mail {
+  margin-top: 0;
+  margin-bottom: 14px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 135%;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+}
+.ml {
+  margin-left: 20px;
+}
+.contact-form {
+  position: relative;
+  align-items: center;
+  border-radius: 24px;
+  background-color: #fff;
+  text-align: center;
+  padding: 15% !important;
+}
+.mail-reach {
+  margin-top: 0;
+  margin-bottom: 20%;
+  color: #0c1d37;
+  font-size: 36px;
+  line-height: 117%;
+  font-weight: 700;
+  letter-spacing: -0.7px;
+}
+.contact-input {
+  height: 56px;
+  margin-bottom: 0;
+  //   padding: 14px 26px;
+  //   padding: 8px;
+  border: 1px solid #efe2d7;
+  border-radius: 50px;
+  background-color: #fff;
+  color: #0c1d37;
+  font-size: 18px;
+  line-height: 120%;
+  width: 90%;
+  padding-left: 40px;
+  margin-left: -20px;
+  margin-bottom: 20px;
+}
+.contact-input1 {
+  height: 56px;
+  margin-bottom: 0;
+  //   padding: 14px 26px;
+  //   padding: 8px;
+  border: 1px solid #efe2d7;
+  border-radius: 50px;
+  background-color: #fff;
+  color: #0c1d37;
+  font-size: 18px;
+  line-height: 120%;
+  width: 90%;
+  padding-left: 40px;
+  padding-top: 10px;
+
+  margin-left: -20px;
+  margin-bottom: 20px;
+}
+.contact-submit {
+  padding: 18px 40px;
+  border-radius: 50px;
+  background-color: #c1ab70;
+  color: #fff;
+  font-size: 18px;
+  line-height: 115%;
+  font-weight: 500;
+  width: 100%;
+}
+.contact-submit:hover {
+  background-color: #d8bf7d;
+}
+.blog-detail-image {
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 6%;
+}
+.official {
+  margin-bottom: 28px;
+  color: #fff;
+  font-size: 18px;
+}
+.detail-margin {
+  margin: 10%;
+  margin-left: 15%;
+}
+.official1 {
+  margin-bottom: 28px;
+  color: #c1ab70;
+  text-decoration: underline;
+  font-size: 18px;
+}
+.galaxy-animation {
+  animation: digitial 5s linear;
+  animation-fill-mode: forwards;
+
+}
+@keyframes digitial {
+  from {
+    top: 100px;
+  }
+  to {
+    top: 80px;
+  }
+}
+.galaxy-animation1 {
+  animation: digitial1 5s linear;
+  animation-fill-mode: forwards;
+
+}
+@keyframes digitial1 {
+  from {
+    top: 60px;
+    transform: rotate(20deg);
+  }
+  to {
+    top: 100px;
+    transform: rotate(40deg);
+  }
+}
+.circle-animation-digital {
+  width: 56px;
+  height: 56px;
+  position: absolute;
+  left: 40%;
+  z-index: 1000;
+  top: 0%;
+  animation: digitial2 5s linear;
+  animation-fill-mode: forwards;
+
+}
+@keyframes digitial2 {
+  from {
+    left: 200px;
+    transform: rotate(20deg);
+  }
+  to {
+    left: 250px;
+    transform: rotate(40deg);
+  }
+}
+.circle-animation-digital1 {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  right: 10%;
+  z-index: 1000;
+  top: 25%;
+  animation: digitial3 5s linear;
+  animation-fill-mode: forwards;
+
+}
+@keyframes digitial3 {
+  from {
+    right: 50px;
+    transform: rotate(20deg);
+  }
+  to {
+    right: 100px;
+    transform: rotate(40deg);
+  }
+}
+.circle-animation-digital2 {
+  width: 112px;
+  height: 112px;
+  position: absolute;
+  left: 50%;
+  top: 150px;
+  z-index: 1000;
+  animation: digitial5 5s linear;
+  animation-fill-mode: forwards;
+
+}
+@keyframes digitial5 {
+  from {
+    top: 150px;
+    transform: rotate(20deg);
+  }
+  to {
+    top: 70px;
+    transform: rotate(40deg);
+  }
+}
+.badge {
+  position: absolute;
+  left: auto;
+  top: -10px;
+  right: -10px;
+  bottom: auto;
+  display: flex;
+  width: 28px;
+  height: 28px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #c1ab70;
+  color: white;
+}
+.circle-animation-contact {
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  top: 60%;
+  left: -6%;
+  z-index: 1000;
+  animation: contact1 5s linear;
+  animation-fill-mode: forwards;
+
+}
+.circle-animation-co {
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  top: 60%;
+  left: -6%;
+  z-index: 1000;
+
+}
+@keyframes contact1 {
+  from {
+    top: 60%;
+  }
+  to {
+    top: 63%;
+  }
+}
+.circle-animation-contact1 {
+  position: absolute;
+  width: 59px;
+  height: 59px;
+  top: 70%;
+  left: -7%;
+  z-index: 1000;
+  animation: contact2 5s linear;
+  animation-fill-mode: forwards;
+
+}
+.circle-animation-co1 {
+  position: absolute;
+  width: 59px;
+  height: 59px;
+  top: 70%;
+  left: -7%;
+  z-index: 1000;
+
+}
+@keyframes contact2 {
+  from {
+    top: 70%;
+  }
+  to {
+    top: 73%;
+  }
+}
+.circle-animation-contact3 {
+  position: absolute;
+  width: 117px;
+  height: 117px;
+  top: 70%;
+  left: -6%;
+  animation: contact3 5s linear;
+  animation-fill-mode: forwards;
+
+}
+.circle-animation-co2 {
+  position: absolute;
+  width: 117px;
+  height: 117px;
+  top: 70%;
+  left: -6%;
+
+}
+@keyframes contact3 {
+  from {
+    top: 80%;
+  }
+  to {
+    top: 78%;
+  }
+}
+.circle-animation-reach {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 1%;
+  right: 1%;
+  z-index: 1000;
+  animation: reach 5s linear;
+  animation-fill-mode: forwards;
+
+}
+.circle-animation-ed {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 1%;
+  right: 1%;
+  z-index: 1000;
+
+}
+@keyframes reach {
+  from {
+    right: -5%;
+  }
+  to {
+    right: -10%;
+  }
+}
+.circle-animation-reach1 {
+  position: absolute;
+  width: 117px;
+  height: 117px;
+  top: 13%;
+  right: -20%;
+  z-index: 1000;
+  animation: reach1 5s linear;
+  animation-fill-mode: forwards;
+
+}
+.circle-animation-ed1 {
+  position: absolute;
+  width: 117px;
+  height: 117px;
+  top: 13%;
+  right: -20%;
+  z-index: 1000;
+
+}
+@keyframes reach1 {
+  from {
+    right: -20%;
+  }
+  to {
+    right: -25%;
+  }
+}
+.circle-animation-reach2 {
+  position: absolute;
+  width: 175px;
+  height: 175px;
+  top: 25%;
+  right: -18%;
+  animation: reach2 5s linear;
+  animation-fill-mode: forwards;
+
+}
+.circle-animation-ed2 {
+  position: absolute;
+  width: 175px;
+  height: 175px;
+  top: 25%;
+  right: -18%;
+
+}
+@keyframes reach2 {
+  from {
+    right: -15%;
+  }
+  to {
+    right: -18%;
+  }
+}
+// @media (max-width: 600px) {
+//   .circle-animation-reach2 {
+//     display: none;
+//   }
+//   .circle-animation-reach1 {
+//     display: none;
+//   }  .circle-animation-reach {
+//     display: none;
+//   }
+//   .circle-animation-contact3 {
+//     display: none;
+
+//   }
+//   .circle-animation-contact {
+//     display: none;
+
+//   }
+//   .circle-animation-contact1 {
+//     display: none;
+
+//   }
+// }

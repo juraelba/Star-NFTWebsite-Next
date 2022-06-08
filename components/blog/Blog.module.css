@@ -1,0 +1,122 @@
+.main_box {
+    padding-top: 17%;
+    z-index: 100;
+}
+
+.blog_image {
+    width: 100%;
+    height: 340px;
+    border-radius: 24px;
+    object-fit: cover;
+}
+
+.blog_image:hover {
+    transform: scale(0.98);
+}
+
+.part_title {
+    margin-bottom: 22px;
+    color: #c1ab70;
+    font-size: 36px;
+    line-height: 117%;
+    font-weight: 700;
+    letter-spacing: -0.7px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.date_title {
+    text-align: center;
+    opacity: 0.5;
+    color: #fff;
+    font-size: 15px;
+    line-height: 120%;
+}
+
+.blog_margin {
+    margin-top: 12%;
+}
+
+@keyframes myothermove {
+    from {
+        top: 0px;
+    }
+
+    to {
+        top: -70px;
+    }
+}
+
+@keyframes myothermove1 {
+    from {
+        right: 100px;
+    }
+
+    to {
+        right: 140px;
+    }
+}
+
+.Super_ganit {
+    text-align: center;
+    color: #c1ab70;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 122%;
+    margin-bottom: 28px;
+    animation-name: topFadeOut;
+    animation-duration: 5s;
+}
+
+@keyframes topFadeOut {
+    0% {
+        top: -3rem;
+        opacity: 0;
+        left: 42%;
+    }
+
+    75% {
+        top: 15%;
+        left: 42%;
+        opacity: 1;
+        text-align: center;
+    }
+
+    100% {
+        opacity: 1;
+        left: 42%;
+    }
+}
+
+@keyframes topFadeOut1 {
+    0% {
+        top: -3rem;
+        opacity: 0;
+    }
+
+    75% {
+        top: 25%;
+        opacity: 1;
+        text-align: center;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.text_accent {
+    display: inline-block;
+    padding-right: 0.25em;
+    padding-left: 0.25em;
+    border-radius: 8px;
+    background-color: rgba(193, 171, 112, 0.25);
+    color: #c1ab70;
+}
+
+@media (max-width: 600px) {
+    .main_box {
+        padding-top: 30%;
+    }
+
+}

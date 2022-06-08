@@ -1,0 +1,82 @@
+.main_box {
+    padding-top: 17%;
+    z-index: 100;
+}
+
+.Super_ganit {
+    text-align: center;
+    color: #c1ab70;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 122%;
+    margin-bottom: 28px;
+    animation-name: topFadeOut;
+    animation-duration: 5s;
+}
+
+.collection {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 170%;
+    margin-bottom: 34px;
+    animation-name: topFadeOut1;
+    animation-duration: 5s;
+}
+
+.margin_tp {
+    margin-top: 8%;
+}
+
+.nft_image {
+    width: 100%;
+    height: 224px;
+    border-radius: 24px;
+}
+
+.nft_icon {
+    width: 35px;
+}
+
+.icon_box {
+    background-color: white;
+    display: flex !important;
+    justify-content: center !important;
+    padding: 25;
+    border-radius: 24px;
+    align-items: center !important;
+    width: 84px;
+    height: 84px;
+    z-index: 9999 !important;
+    position: relative;
+    margin: auto;
+    margin-top: -40px;
+    margin-bottom: 28px;
+}
+
+.nft_titile {
+    text-align: center;
+    color: #c1ab70;
+    font-size: 30px;
+    line-height: 117%;
+    font-weight: 700;
+    letter-spacing: -0.7px;
+    margin-bottom: 20px;
+}
+
+.nft_description {
+    max-width: 330px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 170%;
+    color: white;
+    text-align: center;
+}
+
+
+@media (max-width: 600px) {
+    .main_box {
+        padding-top: 30%;
+    }
+}

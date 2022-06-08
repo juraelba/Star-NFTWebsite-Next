@@ -1,0 +1,118 @@
+.main_box {
+    padding-top: 17%;
+    z-index: 100;
+}
+
+.date_title {
+    text-align: center;
+    opacity: 0.5;
+    color: #fff;
+    font-size: 15px;
+    line-height: 120%;
+}
+
+.blog_detail_image {
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 6%;
+}
+
+.official {
+    margin-bottom: 28px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.detail_margin {
+    margin: 10%;
+    margin-left: 15%;
+}
+
+.official1 {
+    margin-bottom: 28px;
+    color: #c1ab70;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+
+@keyframes myothermove {
+    from {
+        top: 0px;
+    }
+
+    to {
+        top: -70px;
+    }
+}
+
+
+@keyframes myothermove1 {
+    from {
+        right: 100px;
+    }
+
+    to {
+        right: 140px;
+    }
+}
+
+.Super_ganit {
+    text-align: center;
+    color: #c1ab70;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 122%;
+    margin-bottom: 28px;
+    animation-name: topFadeOut;
+    animation-duration: 5s;
+}
+
+@keyframes topFadeOut {
+    0% {
+        top: -3rem;
+        opacity: 0;
+        left: 42%;
+    }
+
+    75% {
+        top: 15%;
+        left: 42%;
+        opacity: 1;
+        text-align: center;
+    }
+
+    100% {
+        opacity: 1;
+        left: 42%;
+    }
+}
+
+
+
+@keyframes topFadeOut1 {
+    0% {
+        top: -3rem;
+        opacity: 0;
+    }
+
+    75% {
+        top: 25%;
+        opacity: 1;
+        text-align: center;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+@media (max-width: 600px) {
+    .main_box {
+        padding-top: 30%;
+    }
+
+
+}

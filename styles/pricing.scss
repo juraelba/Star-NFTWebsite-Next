@@ -1,0 +1,132 @@
+.Pricing-ganit {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 100%;
+  text-align: center;
+  color: #fcfcf9;
+}
+.surprise {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #848199;
+  margin-top: 2%;
+}
+.monthly {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.surprise1 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 2%;
+  color: #fcfcf9;
+}
+.priceee {
+  margin: 20px;
+}
+.free-box {
+  padding: 30px;
+  border-radius: 15px;
+  border: 3px solid #283647;
+}
+.standard {
+  padding: 4px 16px;
+  width: 116px;
+  height: 28px;
+  background: #283647;
+  border-radius: 14px;
+  color: white;
+}
+.free-pricing {
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 100px;
+  color: #fcfcf9;
+}
+.mo {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #7f8596;
+}
+.consectetur {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #7f8596;
+  margin-bottom: 20px;
+}
+.quod {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #7f8596;
+  margin-top: 16px;
+  margin-left: 5px;
+}
+.quodq {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #494e5b;
+  margin-top: 16px;
+  margin-left: 5px;
+
+}
+.green-tick {
+  font-size: 15px;
+  color: #30b38c;
+}
+.gray-tick {
+  font-size: 15px;
+  color: #494e5b;
+}
+.premium-box {
+  padding: 30px;
+  border-radius: 15px;
+  background-color: #283647;
+  border: 3px solid #283647;
+
+}
+.Gold {
+  padding: 4px 16px;
+  width: 76px;
+  height: 28px;
+  background: gray;
+  border-radius: 14px;
+  color: white;
+}
+.create-account {
+  background-color: transparent;
+  text-transform: none;
+  border: 2px solid #ebcd81;
+  width: 100%;
+  height: 40px;
+  border-radius: 250px;
+  color: white;
+  margin-top: 30%;
+}
+.sign-account {
+  background-color: #ebcd81;
+  text-transform: none;
+  width: 100%;
+  height: 40px;
+  border-radius: 250px;
+  color: black;
+  margin-top: 30%;
+}
+@media (max-width: 600px) {
+  .priceee {
+    margin: 5px;
+  }
+  .monthly {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+}

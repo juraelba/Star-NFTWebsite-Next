@@ -1,0 +1,101 @@
+.main_box {
+    padding-top: 17%;
+    z-index: 100;
+}
+
+.Stellar_ganit {
+    margin-top: 0;
+    margin-bottom: 24px;
+    color: #0c1d37;
+    font-size: 48px;
+    line-height: 117%;
+    font-weight: 700;
+    letter-spacing: -0.7px;
+    color: #c1ab70;
+    text-align: center;
+}
+
+.margin {
+    margin-top: 20%;
+}
+
+.icon_box {
+    background-color: white;
+    display: flex !important;
+    justify-content: center !important;
+    padding: 25;
+    border-radius: 24px;
+    align-items: center !important;
+    width: 84px;
+    height: 84px;
+    z-index: 9999 !important;
+    position: relative;
+    margin: auto;
+    margin-top: -40px;
+    margin-bottom: 28px;
+}
+
+.badge {
+    position: absolute;
+    left: auto;
+    top: -10px;
+    right: -10px;
+    bottom: auto;
+    display: flex;
+    width: 28px;
+    height: 28px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #c1ab70;
+    color: white;
+}
+
+.nft_icon {
+    width: 35px;
+}
+
+.feature_titile1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #c1ab70;
+    font-size: 26px;
+    line-height: 117%;
+    font-weight: 700;
+    letter-spacing: -0.7px;
+    text-align: center;
+}
+
+.feature_description {
+    max-width: 330px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 170%;
+    color: white;
+    text-align: center;
+}
+
+.metaverse_button {
+    padding: 18px 40px;
+    border-radius: 50px;
+    background-color: #c1ab70;
+    color: #fff;
+    font-size: 18px;
+    line-height: 115%;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    margin-top: 3%;
+}
+
+.metaverse_button:hover {
+    background-color: #d8bf7d;
+}
+
+@media (max-width: 600px) {
+    .main_box {
+        padding-top: 30%;
+    }
+}

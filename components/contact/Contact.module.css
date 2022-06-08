@@ -1,0 +1,207 @@
+@keyframes contact3 {
+    from {
+        top: 80%;
+    }
+
+    to {
+        top: 78%;
+    }
+}
+
+.main_box {
+    padding-top: 17%;
+    z-index: 100;
+}
+
+@media (max-width: 600px) {
+    .main_box {
+        padding-top: 30%;
+    }
+}
+
+.community {
+    margin: 0 0 28px;
+    color: #c1ab70;
+    font-size: 60px;
+    line-height: 122%;
+    font-weight: 700;
+    letter-spacing: -1px;
+    padding-top: 10%;
+}
+
+.growing {
+    margin-bottom: 34px;
+    color: white;
+    font-size: 18px;
+}
+
+.icon_box_contact {
+    background-color: white;
+    display: flex !important;
+    justify-content: center !important;
+    padding: 25;
+    border-radius: 24px;
+    align-items: center !important;
+    width: 84px;
+    height: 84px;
+    z-index: 9999 !important;
+    position: relative;
+    margin-bottom: 28px;
+}
+
+.flex_contact {
+    display: flex;
+}
+
+.nft_icon {
+    width: 35px;
+}
+
+.mail {
+    margin-top: 0;
+    margin-bottom: 14px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 135%;
+    font-weight: 700;
+    letter-spacing: -0.2px;
+}
+
+.ml {
+    margin-left: 20px;
+}
+
+.mail_title {
+    color: #c1ab70;
+    font-size: 15px;
+    line-height: 135%;
+    margin-top: 15px;
+}
+
+.relative_box {
+    position: relative;
+}
+
+.rightAnimationStyle1 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: -25px;
+  right: -50px;
+  z-index: 2;
+}
+
+.rightAnimationStyle2 {
+  position: absolute;
+  width: 117px;
+  height: 117px;
+  top: 50px;
+  right: -150px;
+  z-index: 2;
+}
+
+.rightAnimationStyle3 {
+  position: absolute;
+  width: 175px;
+  height: 175px;
+  top: 100px;
+  right: -120px;
+}
+
+.leftAnimationStyle1 {
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  bottom: 230px;
+  left: -60px;
+}
+
+.leftAnimationStyle2 {
+  position: absolute;
+  width: 59px;
+  height: 59px;
+  bottom: 120px;
+  left: -50px;
+  z-index: 0;
+}
+
+.leftAnimationStyle3 {
+  position: absolute;
+  width: 117px;
+  height: 117px;
+  bottom: -15px;
+  left: -50px;
+  z-index: 0;
+}
+
+.contact_form {
+  position: relative;
+  align-items: center;
+  border-radius: 24px;
+  background-color: #fff;
+  text-align: center;
+  padding: 15% !important;
+  z-index: 1;
+}
+
+.mail_reach {
+    margin-top: 0;
+    margin-bottom: 20%;
+    color: #0c1d37;
+    font-size: 36px;
+    line-height: 117%;
+    font-weight: 700;
+    letter-spacing: -0.7px;
+}
+
+.contact_input {
+    height: 56px;
+    margin-bottom: 0;
+    border: 1px solid #efe2d7;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #0c1d37;
+    font-size: 18px;
+    line-height: 120%;
+    width: 90%;
+    padding-left: 40px;
+    margin-left: -20px;
+    margin-bottom: 20px;
+}
+
+.contact_input1 {
+    height: 56px;
+    margin-bottom: 0;
+    border: 1px solid #efe2d7;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #0c1d37;
+    font-size: 18px;
+    line-height: 120%;
+    width: 90%;
+    padding-left: 40px;
+    padding-top: 10px;
+    margin-left: -20px;
+    margin-bottom: 20px;
+}
+
+.contact_submit {
+    padding: 18px 40px;
+    border-radius: 50px;
+    background-color: #c1ab70;
+    color: #fff;
+    font-size: 18px;
+    line-height: 115%;
+    font-weight: 500;
+    width: 100%;
+}
+
+.contact_submit:hover {
+    background-color: #d8bf7d;
+}
+
+@media (max-width: 600px) {
+    .main_box {
+        padding-top: 30%;
+    }
+}
