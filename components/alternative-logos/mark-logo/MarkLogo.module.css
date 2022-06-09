@@ -1,0 +1,47 @@
+.container {
+  height: 274px;
+  border-radius: 20px;
+  border: 2px solid #353945;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.dark {
+  background: #fcfcf9;
+}
+
+.dark .logo {
+  filter: brightness(0);
+}
+
+.light .logo {
+  filter: brightness(100);
+}
+
+.extensions {
+  display: flex;
+  position: absolute;
+  right: 12px;
+  bottom: 20px;
+}
+
+.extension {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  color: #c1ab70;
+  margin-left: 8px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .container {
+    height: 358px;
+  }
+}
