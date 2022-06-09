@@ -1,0 +1,48 @@
+.title {
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 100%;
+  color: #fcfcf9;
+  margin-bottom: 32px;
+}
+
+.description {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: #7f8596;
+  margin-bottom: 60px;
+}
+
+.download {
+  height: 72px;
+  background: #ebcd81;
+  border-radius: 250px;
+  padding-left: 32px;
+  padding-right: 24px;
+  display: flex;
+  align-items: center;
+  text-transform: none;
+}
+
+.text {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%;
+  color: #353945;
+  margin-right: 18px;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 32px;
+  }
+
+  .download {
+    width: 100%;
+    padding: 0
+  }
+}
