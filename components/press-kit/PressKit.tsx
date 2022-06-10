@@ -15,7 +15,7 @@ const PressKit = () => {
     <Box className={styles.pressKitContainer}>
       <Typography className={styles.title}>Press Kit</Typography>
       <Typography className={styles.description}>
-        We’re a playful and fun brand that doesn't take ourselves too seriously.
+        We're a playful and fun brand that doesn't take ourselves too seriously.
         That said, we're keen on keeping things quality. If you're gonna use our
         art for something please keep it tasteful and send it our way for
         approval.
