@@ -16,7 +16,7 @@ const LookingForMore: React.FC = () => {
         Download the full StarLedger media kit and get: app icons, banners,
         logos and more
       </Typography>
-      <Button className={styles.download}>
+      <a href="/images/logo/full-kit.zip" className={styles.download}>
         <Typography className={styles.text}>
           Download {!isMobile && "full media"} kit
         </Typography>
@@ -26,7 +26,7 @@ const LookingForMore: React.FC = () => {
           height={24}
           alt=":( Not Found"
         />
-      </Button>
+      </a>
     </Box>
   );
 };

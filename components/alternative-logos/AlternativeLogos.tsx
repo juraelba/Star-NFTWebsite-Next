@@ -18,10 +18,13 @@ const AlternativeLogos = () => {
         <Typography className={styles.subtitle}>Vertical Logo</Typography>
         <Box className={styles.body}>
           <Box className={styles.logo}>
-            <VerticalLogo color="dark" />
+            <VerticalLogo
+              color="dark"
+              href="/images/logo/logo-vertical-light.zip"
+            />
           </Box>
           <Box className={styles.logo}>
-            <VerticalLogo />
+            <VerticalLogo href="/images/logo/logo-vertical-dark.zip" />
           </Box>
         </Box>
       </Box>
@@ -29,13 +32,13 @@ const AlternativeLogos = () => {
         <Typography className={styles.subtitle}>Mark Logo Only</Typography>
         <Box className={styles.body}>
           <Box className={styles.markLogo}>
-            <MarkLogo />
+            <MarkLogo href="/images/logo/logo.zip" />
           </Box>
           <Box className={styles.markLogo}>
-            <MarkLogo color="dark" />
+            <MarkLogo color="dark" href="/images/logo/logo-dark.zip" />
           </Box>
           <Box className={styles.markLogo}>
-            <MarkLogo color="light" />
+            <MarkLogo color="light" href="/images/logo/logo-light.zip" />
           </Box>
         </Box>
       </Box>

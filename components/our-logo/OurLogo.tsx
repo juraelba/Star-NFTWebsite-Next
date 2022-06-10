@@ -14,10 +14,13 @@ const OurLogo = () => {
       </Typography>
       <Box className={styles.logoContainer}>
         <Box className={styles.logo}>
-          <HorizontalLogo color="dark" />
+          <HorizontalLogo
+            color="dark"
+            href="/images/logo/logo-horizontal-light.zip"
+          />
         </Box>
         <Box className={styles.logo}>
-          <HorizontalLogo />
+          <HorizontalLogo href="/images/logo/logo-horizontal-dark.zip" />
         </Box>
       </Box>
     </Box>
