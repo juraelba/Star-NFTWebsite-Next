@@ -8,13 +8,19 @@ import useIsMobile from "../../hooks/useIsMobile";
 
 interface HorizontalLogoProps {
   color?: "light" | "dark";
+  href: string;
 }
 
-const HorizontalLogo: React.FC<HorizontalLogoProps> = ({ color = "light" }) => {
+const HorizontalLogo: React.FC<HorizontalLogoProps> = ({
+  color = "light",
+  href,
+}) => {
   const isMobile = useIsMobile();
 
   return (
     <Box
+      component="a"
+      href={href}
       className={clsx(styles.container, { [styles.light]: color === "light" })}
     >
       {color !== "light" ? (

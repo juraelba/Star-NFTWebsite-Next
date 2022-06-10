@@ -7,11 +7,14 @@ import clsx from "clsx";
 
 interface MarkLogoProps {
   color?: "normal" | "light" | "dark";
+  href: string;
 }
 
-const MarkLogo: React.FC<MarkLogoProps> = ({ color = "normal" }) => {
+const MarkLogo: React.FC<MarkLogoProps> = ({ color = "normal", href }) => {
   return (
     <Box
+      component="a"
+      href={href}
       className={clsx(
         styles.container,
         { [styles.light]: color === "light" },
