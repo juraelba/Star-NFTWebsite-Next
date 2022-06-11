@@ -1,158 +1,53 @@
-.main_box {
-    padding-top: 17%;
-    z-index: 100;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  padding-top: 178px;
+  box-sizing: border-box;
 }
 
-.Pricing_ganit {
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 100%;
-    text-align: center;
-    color: #fcfcf9;
+.title {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 100%;
+  text-align: center;
+  color: #fcfcf9;
+  margin-bottom: 24px;
 }
 
-.surprise {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
-    color: #848199;
-    margin-top: 2%;
+.description {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #848199;
+  margin-bottom: 48px;
 }
 
-.monthly {
-    display: flex;
-    justify-content: center;
-    margin-top: 2%;
-    margin-bottom: 2%;
+.switch {
+  margin-bottom: 60px;
 }
 
-.surprise1 {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
-    margin-top: 2%;
-    color: #fcfcf9;
+.cardContainer {
+  max-width: 1276px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: -16px -10px;
 }
 
-.priceee {
-    margin: 20px;
+.item {
+  width: 33.33%;
+  padding: 16px 10px;
+  box-sizing: border-box;
 }
 
-.free_box {
-    padding: 30px;
-    border-radius: 15px;
-    border: 3px solid #283647;
-}
 
-.standard {
-    padding: 4px 16px;
-    width: 116px;
-    height: 28px;
-    background: #283647;
-    border-radius: 14px;
-    color: white;
-}
-
-.free_pricing {
-    font-weight: 800;
-    font-size: 60px;
-    line-height: 100px;
-    color: #fcfcf9;
-}
-
-.mo {
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 32px;
-    color: #7f8596;
-}
-
-.consectetur {
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 28px;
-    color: #7f8596;
-    margin-bottom: 20px;
-}
-
-.quod {
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 28px;
-    color: #7f8596;
-    margin-top: 16px;
-    margin-left: 5px;
-}
-
-.quodq {
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 28px;
-    color: #494e5b;
-    margin-top: 16px;
-    margin-left: 5px;
-}
-
-.green_tick {
-    font-size: 15px;
-    color: #30b38c;
-}
-
-.gray_tick {
-    font-size: 15px;
-    color: #494e5b;
-}
-
-.premium_box {
-    padding: 30px;
-    border-radius: 15px;
-    background-color: #283647;
-    border: 3px solid #283647;
-}
-
-.Gold {
-    padding: 4px 16px;
-    width: 76px;
-    height: 28px;
-    background: gray;
-    border-radius: 14px;
-    color: white;
-}
-
-.create_account {
-    background-color: transparent;
-    text-transform: none;
-    border: 2px solid #ebcd81;
+@media(max-width: 1024px) {
+  .item {
     width: 100%;
-    height: 40px;
-    border-radius: 250px;
-    color: white;
-    margin-top: 30%;
-}
-
-.sign_account {
-    background-color: #ebcd81;
-    text-transform: none;
-    width: 100%;
-    height: 40px;
-    border-radius: 250px;
-    color: black;
-    margin-top: 30%;
-}
-
-@media (max-width: 600px) {
-    .priceee {
-        margin: 5px;
-    }
-
-    .monthly {
-        margin-top: 5%;
-        margin-bottom: 5%;
-    }
-
-    .main_box {
-        padding-top: 30%;
-    }
+  }
 }

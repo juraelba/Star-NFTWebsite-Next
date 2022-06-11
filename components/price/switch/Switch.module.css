@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.switch {
+  width: 74px;
+  height: 33px;
+  background: #ebcd81;
+  border-radius: 20px;
+  margin-left: 16px;
+  margin-right: 16px;
+  position: relative;
+}
+
+.switch::after {
+  content: "";
+  transition: 0.2s;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 4px;
+  left: 45px;
+  border-radius: 50%;
+  background: #fcfcf9;
+  box-shadow: 0px 3px 13px rgba(20, 20, 22, 0.13);
+}
+
+.on::after {
+  left: 4px;
+}
+
+.value {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #848199;
+}
+
+.selectedValue {
+  font-weight: 600;
+  color: #fcfcf9;
+}

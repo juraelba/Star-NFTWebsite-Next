@@ -30,7 +30,6 @@ const IndexPage: NextPage<{
       <Box sx={{ backgroundColor: "#1B2735" }}>
         <Price />
         <Footer />
-
       </Box>
     </>
   );
