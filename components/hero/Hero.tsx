@@ -18,22 +18,6 @@ const Hero: React.FC = () => {
       video: "http://cdn.starledger.org/videos/nft-2.mp4",
     },
     {
-      name: "Games",
-      icon: "/images/icons/url.svg",
-      description:
-        "Curabitur tortor mauris, bibendum nec nibh vel, tincidunt semper odio. Aenean id, ultrices sed.",
-      path: "#",
-      video: "https://cdn.starledger.org/videos/games.mp4",
-    },
-    {
-      name: "Member",
-      icon: "/images/icons/profile.svg",
-      description:
-        "Curabitur tortor mauris, bibendum nec nibh vel, tincidunt semper odio. Aenean id, ultrices sed.",
-      path: "#",
-      video: "https://cdn.starledger.org/videos/members.mp4",
-    },
-    {
       name: "Map",
       icon: "/images/icons/discovery.svg",
       description:
@@ -42,12 +26,28 @@ const Hero: React.FC = () => {
       video: "https://cdn.starledger.org/videos/map.mp4",
     },
     {
+      name: "Games",
+      icon: "/images/icons/url.svg",
+      description:
+        "Curabitur tortor mauris, bibendum nec nibh vel, tincidunt semper odio. Aenean id, ultrices sed.",
+      path: "#",
+      video: "https://cdn.starledger.org/videos/games.mp4",
+    },
+    {
       name: "News",
       icon: "/images/icons/heart.svg",
       description:
         "Curabitur tortor mauris, bibendum nec nibh vel, tincidunt semper odio. Aenean id, ultrices sed.",
       path: "#",
       video: "https://cdn.starledger.org/videos/news.mp4",
+    },
+    {
+      name: "Member",
+      icon: "/images/icons/profile.svg",
+      description:
+        "Curabitur tortor mauris, bibendum nec nibh vel, tincidunt semper odio. Aenean id, ultrices sed.",
+      path: "#",
+      video: "https://cdn.starledger.org/videos/members.mp4",
     },
   ];
   const [selectedCard, setSelectedCard] = useState<HeroItem>(items[0]);
