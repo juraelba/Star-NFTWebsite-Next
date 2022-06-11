@@ -1,27 +1,37 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useRouter } from "next/router";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Image from "next/image";
 import styles from "./Card.module.css";
-import { HeroItem } from "../../../types/type";
 import { Typography } from "@mui/material";
+import useIsMobile from "../../../hooks/useIsMobile";
 
-const Card: React.FC<HeroItem> = (props) => {
-  const { name, description, icon, path, video } = props;
+interface CardProps {
+  name: string;
+  icon: string;
+  description: string;
+  path: string;
+  video: string;
+  onClick: () => void;
+}
+
+const Card: React.FC<CardProps> = (props) => {
+  const { name, description, icon, path, video, onClick } = props;
   const router = useRouter();
+  const isMobile = useIsMobile();
   const handleRedirect = () => router.push(path);
 
   return (
-    <Box className={styles.container}>
-      <video className={styles.video} autoPlay muted loop>
+    <Box className={styles.container} onClick={onClick}>
+      <video key={video} className={styles.video} autoPlay muted loop>
         <source src={video} type="video/mp4" />
       </video>
       <Box className={styles.content}>
         <Image
           src={icon}
-          width={48}
-          height={48}
+          width={isMobile ? 32 : 48}
+          height={isMobile ? 32 : 48}
           alt=":( Not Found"
           className={styles.icon}
         />
@@ -32,8 +42,8 @@ const Card: React.FC<HeroItem> = (props) => {
           <Box className={styles.arrow}>
             <Image
               src="/images/icons/arrow-right-light.svg"
-              width={20}
-              height={20}
+              width={isMobile ? 16 : 20}
+              height={isMobile ? 16 : 20}
               alt=":( Not Found"
             />
           </Box>

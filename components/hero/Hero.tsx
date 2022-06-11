@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import Box from "@mui/material/Box";
 import Card from "./card/Card";
+import Cover from "./cover/Cover";
 import styles from "./Hero.module.css";
 import { HeroItem } from "../../types/type";
+import useIsMobile from "../../hooks/useIsMobile";
 
 const Hero: React.FC = () => {
+  const isMobile = useIsMobile();
   const items: HeroItem[] = [
     {
       name: "NFTs",
@@ -47,11 +50,25 @@ const Hero: React.FC = () => {
       video: "https://cdn.starledger.org/videos/news.mp4",
     },
   ];
+  const [selectedCard, setSelectedCard] = useState<HeroItem>(items[0]);
+  const [isOpen, setIsOpen] = useState<Boolean>(false);
+  const handleOpenCover = (data: HeroItem) => {
+    if (isMobile) {
+      setIsOpen(true);
+      setSelectedCard(data);
+    }
+  };
+
+  const handleClose = () => {
+    setIsOpen(false);
+  };
+
   return (
     <Box className={styles.container}>
       {items.map((item: HeroItem, index: React.Key) => (
-        <Card {...item} key={index} />
+        <Card {...item} key={index} onClick={() => handleOpenCover(item)} />
       ))}
+      <Cover isOpen={isOpen} {...selectedCard} onClose={handleClose} />
     </Box>
   );
 };
