@@ -7,6 +7,22 @@ import { HeroItem } from "../../types/type";
 const Hero: React.FC = () => {
   const items: HeroItem[] = [
     {
+      name: "NFTs",
+      icon: "/images/icons/flash.svg",
+      description:
+        "Curabitur tortor mauris, bibendum nec nibh vel, tincidunt semper odio. Aenean id, ultrices sed.",
+      path: "#",
+      video: "http://cdn.starledger.org/videos/nft-2.mp4",
+    },
+    {
+      name: "Games",
+      icon: "/images/icons/url.svg",
+      description:
+        "Curabitur tortor mauris, bibendum nec nibh vel, tincidunt semper odio. Aenean id, ultrices sed.",
+      path: "#",
+      video: "https://cdn.starledger.org/videos/games.mp4",
+    },
+    {
       name: "Member",
       icon: "/images/icons/profile.svg",
       description:
@@ -15,28 +31,12 @@ const Hero: React.FC = () => {
       video: "https://cdn.starledger.org/videos/members.mp4",
     },
     {
-      name: "Mint",
-      icon: "/images/icons/flash.svg",
-      description:
-        "Curabitur tortor mauris, bibendum nec nibh vel, tincidunt semper odio. Aenean id, ultrices sed.",
-      path: "#",
-      video: "https://cdn.starledger.org/videos/nft.mp4",
-    },
-    {
       name: "Map",
       icon: "/images/icons/discovery.svg",
       description:
         "Curabitur tortor mauris, bibendum nec nibh vel, tincidunt semper odio. Aenean id, ultrices sed.",
       path: "#",
       video: "https://cdn.starledger.org/videos/map.mp4",
-    },
-    {
-      name: "Website",
-      icon: "/images/icons/url.svg",
-      description:
-        "Curabitur tortor mauris, bibendum nec nibh vel, tincidunt semper odio. Aenean id, ultrices sed.",
-      path: "#",
-      video: "https://cdn.starledger.org/videos/games.mp4",
     },
     {
       name: "News",
@@ -49,10 +49,8 @@ const Hero: React.FC = () => {
   ];
   return (
     <Box className={styles.container}>
-      {items.map((item: HeroItem, index: Number) => (
-        <Box className={styles.item}>
-          <Card {...item} />
-        </Box>
+      {items.map((item: HeroItem, index: React.Key) => (
+        <Card {...item} key={index} />
       ))}
     </Box>
   );
