@@ -2,8 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
-  padding-top: 178px;
+  padding: 178px 20px 114px;
   box-sizing: border-box;
 }
 
