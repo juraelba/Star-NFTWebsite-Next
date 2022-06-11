@@ -17,7 +17,7 @@ const Price: React.FC = () => {
   const plans: PricePlan[] = [
     {
       name: "Standard",
-      unit: isChecked ? "/mo" : "yr",
+      unit: isChecked ? "/mo" : "/yr",
       price: "Free",
       description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. ",
       availables: [1, 2],
@@ -28,7 +28,7 @@ const Price: React.FC = () => {
     },
     {
       name: "Gold",
-      unit: isChecked ? "/mo" : "yr",
+      unit: isChecked ? "/mo" : "/yr",
       price: "$5",
       description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. ",
       availables: [1, 2, 3],
