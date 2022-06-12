@@ -54,7 +54,7 @@ const Footer = () => {
                   <Link href="/privacy">
                     <a className={styles.footer_text}>Privacy Policy</a>
                   </Link>
-                  <Link href="/deletedPricing">
+                  <Link href="/pricing">
                     <a className={styles.footer_text}>Price Planing</a>
                   </Link>
                 </Box>
