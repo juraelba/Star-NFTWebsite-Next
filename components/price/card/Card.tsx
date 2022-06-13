@@ -28,16 +28,16 @@ const Card: React.FC<PricePlan> = (props) => {
   return (
     <Box className={clsx(styles.container, { [styles.selected]: selected })}>
       <Typography className={styles.name}>{name}</Typography>
-      <Typography className={styles.priceContainer}>
+      <Box className={styles.priceContainer}>
         <Typography className={styles.price}>{price}</Typography>
         <Typography className={styles.unit}>{unit}</Typography>
-      </Typography>
+      </Box>
       <Typography className={styles.description}>{description}</Typography>
       <Box className={styles.featuresContainer}>
         {features.map((feature: string, index: number) => {
           const active = availables.indexOf(index + 1) > -1;
           return (
-            <Box className={styles.feature}>
+            <Box className={styles.feature} key={index}>
               <Box className={styles.featureIcon}>
                 {active ? (
                   <Image
