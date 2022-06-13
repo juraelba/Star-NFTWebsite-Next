@@ -33,6 +33,7 @@
 
 .container:hover .content .description {
   opacity: 1;
+  transition-delay: 0.4s;
 }
 
 .container:hover .content .launch {
@@ -66,7 +67,8 @@
   text-align: center;
   color: #fcfcf9;
   opacity: 0;
-  transition: 0.5s;
+  transition: 0.1s;
+  transition-delay: 0s;
 }
 
 .launch {
