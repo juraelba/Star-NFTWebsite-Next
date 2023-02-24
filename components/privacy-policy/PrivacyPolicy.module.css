@@ -48,6 +48,13 @@
   font-weight: 600;
 }
 
+.subtitle {
+  font-size: 32px;
+  font-weight: 600;
+  font-family: "Montserrat";
+  line-height: 150%;
+}
+
 @media (max-width: 768px) {
   .heroContainer {
     align-items: flex-start;

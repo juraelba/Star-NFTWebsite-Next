@@ -1,6 +1,6 @@
 import { HttpClient } from "@metis.io/middleware-client";
 import { NextPage } from "next";
-import Home from "../components/home/Home";
+import Hero from "../components/hero/Hero";
 import Features from "../components/features/Features";
 // import Works from "../components/how-it-works/HowItWorks";
 import Header from "../components/header/Header";
@@ -24,15 +24,18 @@ const IndexPage: NextPage<{
 }> = () => {
   return (
     <>
-      <HeadTag title="StarLedger" content="Starlege is the metamask website"/>
+      <HeadTag title="StarLedger" content="Starlege is the metamask website" />
       <Header />
-      <Box sx={{ backgroundColor: "#1B2735" }} className={styles.homepage_wrapper}>
-        <Home />
+      <Box
+        sx={{ backgroundColor: "#1B2735" }}
+        className={styles.homepage_wrapper}
+      >
+        <Hero />
         <Features />
         <Universe />
         {/* <Works /> */}
         <Requirements />
-        <NewsLetter value={2000}/>
+        <NewsLetter value={2000} />
         <Footer />
       </Box>
     </>

@@ -12,7 +12,7 @@ const Terms = () => {
   };
 
   return (
-    <Box className={styles.termsContainer}>
+    <Box>
       <Box className={styles.heroContainer}>
         <Typography className={styles.title}>Terms and Conditions</Typography>
         <Typography className={styles.description}>
