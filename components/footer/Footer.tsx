@@ -3,8 +3,7 @@ import Link from "next/link";
 import styles from "./Footer.module.css";
 const Footer = () => {
   return (
-    <Container
-    >
+    <Container>
       <footer>
         <Box className={styles.footer}>
           <Grid container className={styles.footer_container}>
@@ -14,7 +13,9 @@ const Footer = () => {
                   <h1 className={styles.logo}></h1>
                 </Box>
                 <Typography className="footer-desc">
-                  Limited NFT collection of 5,000 stars representing stars in our galaxy. Explore stars on 3D map. On Ethereum and Metis Andromeda.
+                  Limited NFT collection of 5,000 stars representing stars in
+                  our galaxy. Explore stars on 3D map. On Ethereum and Metis
+                  Andromeda.
                 </Typography>
                 {/* <Typography className={styles.Infofot}>
                   info@starledger.org
@@ -44,6 +45,15 @@ const Footer = () => {
                   {/* <Link href="/blog">
                     <a className={styles.footer_text}>Blog</a>
                   </Link> */}
+                  <Link href="/press-kit">
+                    <a className={styles.footer_text}>Press Kit</a>
+                  </Link>
+                  <Link href="/terms">
+                    <a className={styles.footer_text}>Terms and Conditions</a>
+                  </Link>
+                  <Link href="/privacy">
+                    <a className={styles.footer_text}>Privacy Policy</a>
+                  </Link>
                 </Box>
               </Grid>
               <Grid item xs={6} md={2} justifyContent="flex-end">
@@ -51,35 +61,35 @@ const Footer = () => {
                   Apps & Docs
                 </Typography>
                 <Box>
-                  <a 
+                  <a
                     href="https://map.starledger.org"
                     target="_blank"
                     className={styles.footer_text}
                   >
                     StarLedger Map
                   </a>
-                  <a 
+                  <a
                     href="https://mint.starledger.org/"
                     target="_blank"
                     className={styles.footer_text}
                   >
                     StarLedger Mint
                   </a>
-                  <a 
+                  <a
                     href="https://member.starledger.org/"
                     target="_blank"
                     className={styles.footer_text}
                   >
                     StarLedger Member
                   </a>
-                  <a 
+                  <a
                     href="https://cdn.starledger.org/goldpaper/StarLedger%20GoldPaper%202022-02-28.pdf"
                     target="_blank"
                     className={styles.footer_text}
                   >
                     StarLedger GoldPaper
                   </a>
-                  <a 
+                  <a
                     href="https://cdn.starledger.org/docs/GuideToTheGalaxy.pdf"
                     target="_blank"
                     className={styles.footer_text}
@@ -92,34 +102,34 @@ const Footer = () => {
                 item
                 xs={12}
                 md={2}
-              // order={{ xs: 5, md: 4 }}
+                // order={{ xs: 5, md: 4 }}
               >
                 <Typography className={styles.footer_heading}>
                   Community
                 </Typography>
                 <Box>
-                  <a 
+                  <a
                     href="https://twitter.com/StarLedgerNFT"
                     target="_blank"
                     className={styles.footer_text}
                   >
                     Twitter
                   </a>
-                  <a 
+                  <a
                     href="https://discord.gg/starledger"
                     target="_blank"
                     className={styles.footer_text}
                   >
                     Discord
                   </a>
-                  <a 
+                  <a
                     href="https://instagram.com/starledgerspace"
                     target="_blank"
                     className={styles.footer_text}
                   >
                     Instagram
                   </a>
-                  <a 
+                  <a
                     href="https://tiktok.com/@starledger"
                     target="_blank"
                     className={styles.footer_text}
