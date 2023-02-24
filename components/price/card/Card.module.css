@@ -1,0 +1,149 @@
+.container {
+  width: 100%;
+  border: 4px solid #283647;
+  border-radius: 32px;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.selected {
+  background: #283647;
+}
+
+.name {
+  display: inline-flex;
+  background: #283647;
+  border-radius: 14px;
+  padding: 4px 16px;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  color: #fcfcf9;
+  margin-bottom: 20px;
+}
+
+.selected .name {
+  background-color: rgba(235, 205, 129, 0.24);
+}
+
+.priceContainer {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.price {
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 60px;
+  color: #fcfcf9;
+  margin-right: 13px;
+}
+
+.unit {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #7f8596;
+}
+
+.description {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #7f8596;
+  margin-bottom: 32px;
+}
+
+.featuresContainer {
+  margin-bottom: 72px;
+}
+
+.featureIcon {
+  display: flex;
+  flex-shrink: 0;
+  margin-right: 8px;
+}
+
+.feature {
+  margin-bottom: 16px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.featureTxt {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #494e5b;
+}
+
+.active {
+  color: #7f8596;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 56px;
+  background: none;
+  border-radius: 250px;
+  text-transform: none;
+  border: 2px solid #ebcd81;
+}
+
+.button:hover {
+  background: #ebcd81;
+}
+
+.button:hover .buttonTxt {
+  color: #353945;
+}
+
+.button:hover .arrow {
+  filter: none;
+}
+
+.selected .button {
+  background: #ebcd81;
+}
+
+.buttonTxt {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fcfcf9;
+  text-align: center;
+  margin-right: 8px;
+}
+
+.selected .buttonTxt {
+  color: #353945;
+}
+
+.arrow {
+  display: flex;
+  filter: brightness(100);
+}
+
+.selected .arrow {
+  filter: none;
+}
+
+@media(max-width: 768px) {
+  .container {
+    padding: 32px;
+  }
+}

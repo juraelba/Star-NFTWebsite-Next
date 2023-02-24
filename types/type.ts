@@ -13,3 +13,17 @@ export interface HeroItem {
   path: string;
   video: string;
 }
+
+export interface PricePlan {
+  name: string;
+  unit: string;
+  price: string;
+  description: string;
+  lifetime?: boolean;
+  availables: number[];
+  selected?: boolean;
+  action: {
+    name: string;
+    function: () => void;
+  };
+}
