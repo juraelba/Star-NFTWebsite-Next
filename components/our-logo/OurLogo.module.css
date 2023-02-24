@@ -1,0 +1,49 @@
+.ourLogoContainer {
+  margin-bottom: 120px;
+}
+
+.title {
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 100%;
+  color: #fcfcf9;
+  margin-bottom: 32px;
+}
+
+.description {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: #7f8596;
+  margin-bottom: 60px;
+}
+
+.logoContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -21px;
+}
+
+.logo {
+  padding: 21px;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 32px;
+    line-height: 100%;
+  }
+
+  .logoContainer {
+    margin: -10px;
+  }
+
+  .logo {
+    width: 100%;
+    padding: 10px;
+  }
+}

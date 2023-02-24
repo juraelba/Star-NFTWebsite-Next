@@ -1,0 +1,35 @@
+.container {
+  border-radius: 20px;
+  padding: 48px;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.name {
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 100%;
+  margin-bottom: 48px;
+}
+
+.hex {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  margin-bottom: 20px;
+}
+
+.rgba {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+}
+
+@media(max-width: 768px) {
+  .container {
+    padding: 48px 32px;
+  }
+}

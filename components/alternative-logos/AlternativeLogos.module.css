@@ -1,0 +1,77 @@
+.container {
+  margin-bottom: 120px;
+}
+
+.title {
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 100%;
+  color: #fcfcf9;
+  margin-bottom: 32px;
+}
+
+.description {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: #7f8596;
+  margin-bottom: 60px;
+}
+
+.verticalLogoContainer {
+  margin-bottom: 60px;
+}
+
+.subtitle {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #fcfcf9;
+  margin-bottom: 48px;
+}
+
+.body {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -21px;
+}
+
+.logo {
+  width: 50%;
+  padding: 21px;
+  box-sizing: border-box;
+}
+
+.markLogo {
+  width: 33.33%;
+  padding: 21px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 32px;
+  }
+
+  .subtitle {
+    font-size: 24px;
+  }
+
+  .body {
+    margin: -10px;
+  }
+
+  .logo {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .markLogo {
+    width: 100%;
+    padding: 10px;
+  }
+}
